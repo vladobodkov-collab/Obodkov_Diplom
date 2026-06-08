@@ -1,0 +1,11 @@
+Папка для фотографий товаров.
+
+Добавьте сюда файлы JPG или PNG с именами:
+  piston_236.jpg
+  piston_238.jpg
+  thermostat.jpg
+  и т.д.
+
+Затем пропишите пути в таблице product_images в phpMyAdmin:
+  file_path = uploads/products/имя_файла.jpg
+  is_main   = 1
